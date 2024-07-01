@@ -20,6 +20,9 @@
         <ul>
             <li v-for="(todo, index) in todoList">
                 <p> {{ todo.name }}</p>
+                <form action="./server.php" method="POST">
+                    <button name="delete" :value="index" type="submit">X</button>
+                </form>
             </li>
         </ul>
     </section>

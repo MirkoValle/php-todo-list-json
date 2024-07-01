@@ -14,9 +14,17 @@ if(isset($_POST['add']) && strlen($_POST['add']) > 0) {
 
     header('location: ./index.php');
 }
-$jsondata = json_encode($data);
 
-file_put_contents('./db/list.json', $jsondata);
+if(isset($_POST['delete'])) {
 
-echo ($jsondata)
+    unset($data[$_POST['delete']]);
+    
+    header('location: ./index.php');
+}
+
+$data = json_encode($data);
+
+file_put_contents('./db/list.json', $data);
+
+echo ($data)
 ?>
