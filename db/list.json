@@ -1,18 +1,1 @@
-[
-    {
-        "name": "Compra il pane",
-        "completed": false
-    },
-    {
-        "name": "Studia PHP",
-        "completed": true
-    },
-    {
-        "name": "Scrivi una mail",
-        "completed": false
-    },
-    {
-        "name": "Fai una passeggiata",
-        "completed": true
-    }
-]
+[{"name":"Compra il pane","completed":false},{"name":"Studia PHP","completed":true},{"name":"Scrivi una mail","completed":false},{"name":"Fai una passeggiata","completed":true},{"name":"dwa","completed":false},{"name":"wdadwawd","completed":false},{"name":"provaaaaa","completed":false},{"name":"giaani","completed":false}]
