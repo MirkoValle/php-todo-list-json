@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Compra il pane",
+        "completed": false
+    },
+    {
+        "name": "Studia PHP",
+        "completed": true
+    },
+    {
+        "name": "Scrivi una mail",
+        "completed": false
+    },
+    {
+        "name": "Fai una passeggiata",
+        "completed": true
+    }
+]
